@@ -19,18 +19,22 @@ colorama.init()
 ################################################################################
 banner=Fore.MAGENTA+'''
 
-	██╗  ██╗ █████╗ ███████╗██╗
-	██║ ██╔╝██╔══██╗╚══███╔╝██║
-	█████╔╝ ███████║  ███╔╝ ██║
-	██╔═██╗ ██╔══██║ ███╔╝  ██║
-	██║  ██╗██║  ██║███████╗██║
-	╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝
+   ▄█   ▄█▄    ▄████████  ▄███████▄   ▄█  
+  ███ ▄███▀   ███    ███ ██▀     ▄██ ███  
+  ███▐██▀     ███    ███       ▄███▀ ███▌ 
+ ▄█████▀      ███    ███  ▀█▀▄███▀▄▄ ███▌ 
+▀▀█████▄    ▀███████████   ▄███▀   ▀ ███▌ 
+  ███▐██▄     ███    ███ ▄███▀       ███  
+  ███ ▀███▄   ███    ███ ███▄     ▄█ ███  
+  ███   ▀█▀   ███    █▀   ▀████████▀ █▀   
+  ▀                                       
+
                            
 '''+Fore.RESET
 credit=(Fore.CYAN+
-'''                               Author : Kazi Ashrafuzzaman 
-	                          Github  : https://www.facebook.com/MR.ERROR.HERE
-	                          Please contact us in Facebook! Enjoy :)                                                         
+''' Author : Kazi Ashrafuzzaman
+    Github  : https://www.facebook.com/MR.ERROR.HERE
+    Please contact us in Facebook! Enjoy :)                                                         
 '''+Fore.RESET)
 ################################################################################
 #platform info
@@ -70,6 +74,7 @@ def update():
 	else:
 		pass
 try:
+	print('')
 	print(Fore.CYAN+" Checking For Internet "+Fore.RESET)
 	time.sleep(2)
 	chech_con()
