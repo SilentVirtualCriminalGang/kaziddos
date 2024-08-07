@@ -32,9 +32,11 @@ banner=Fore.MAGENTA+'''
                            
 '''+Fore.RESET
 credit=(Fore.CYAN+
-''' Author : Kazi Ashrafuzzaman
-    Github  : https://www.facebook.com/MR.ERROR.HERE
-    Please contact us in Facebook! Enjoy :)                                                         
+''' 
+    Author    : Kazi Ashrafuzzaman
+    Facebook  : https://www.facebook.com/MR.ERROR.HERE
+    What'sApp : +8801873561165
+    Please contact us in Facebook! Enjoy Buddy :)                                                         
 '''+Fore.RESET)
 ################################################################################
 #platform info
