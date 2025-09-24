@@ -1,5 +1,5 @@
 # Version 1.1
-# coded By botcoder
+# coded By kazi
 # copyright(please dont use my code without lience)
 from platform import system
 import os
@@ -133,3 +133,4 @@ except Exception as e:
 	print(Fore.RED+"Exited\nReason: ",e,Fore.RESET)
 except KeyboardInterrupt:
 	print(Fore.RED+"\nStopped by User"+Fore.RESET)
+
